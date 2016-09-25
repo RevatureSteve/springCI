@@ -90,6 +90,8 @@
 					<configuration>
 						<url>${integration.tomcat.url}</url>
 						<server>tommy</server>
+						<username>tomcat1</username>
+						<password>secret</password>
 						<path>/${project.artifactId}</path>
 						<update>true</update>
 					</configuration>
