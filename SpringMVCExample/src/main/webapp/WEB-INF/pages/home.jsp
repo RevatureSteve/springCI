@@ -10,6 +10,6 @@
   
   <h1>Home</h1>
   <h2> WOW THIS IS A PIPELINE WIP!</h2>
-  <h2>Jenkins Pull - test  6:20 multiple goals to slack</h2> 
+  <h2>Jenkins Pull - test  6:25 multiple goals to slack</h2> 
 </body>
 </html>
