@@ -10,6 +10,6 @@
   
   <h1>Home</h1>
   <h2> WOW THIS IS A PIPELINE WIP!</h2>
-  <h2>Jenkins Pull - test 2:21 gitpush</h2> 
+  <h2>Jenkins Pull - test 3:34 gitpush</h2> 
 </body>
 </html>
