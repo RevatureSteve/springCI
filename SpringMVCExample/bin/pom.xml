@@ -51,12 +51,6 @@
 			<artifactId>hibernate-validator</artifactId>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.apache.tomcat.maven/tomcat7-maven-plugin -->
-		<dependency>
-			<groupId>org.apache.tomcat.maven</groupId>
-			<artifactId>tomcat7-maven-plugin</artifactId>
-			<version>2.2</version>
-		</dependency>
 
 
 		<!-- Servlet Spec -->
@@ -73,9 +67,7 @@
 		<!-- <scope>provided</scope> -->
 		<!-- </dependency> -->
 	</dependencies>
-<properties>
-    <integration.tomcat.url>http://ec2-52-89-67-75.us-west-2.compute.amazonaws.com:8080/manager/text</integration.tomcat.url>
-</properties>
+
 	<build>
 		<finalName>SpringMVCExample</finalName>
 		<pluginManagement>
@@ -83,27 +75,15 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.5</version>
+					<version>3.5.1</version>
 					<configuration>
 						<source>1.8</source>
 						<target>1.8</target>
 					</configuration>
 				</plugin>
-				<plugin>
-					<groupId>org.apache.tomcat.maven</groupId>
-					<artifactId>tomcat7-maven-plugin</artifactId>
-					<version>2.2</version>
-					<configuration>
-						<url>${integration.tomcat.url}</url>
-						<server>tommy</server>
-						<path>/${project.artifactId}</path>
-						<update>true</update>
-					</configuration>
-				</plugin>
 
+			
 			</plugins>
 		</pluginManagement>
 	</build>
-
-
 </project>

@@ -9,7 +9,6 @@
 <body>
   
   <h1>Home</h1>
-  <h2> WOW THIS IS A PIPELINE WIP!</h2>
-  <h2>Jenkins Pull</h2> 
+  <h2> WOW THIS IS A PIPELINE!</h2> 
 </body>
 </html>
