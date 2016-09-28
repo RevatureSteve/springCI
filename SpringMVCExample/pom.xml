@@ -68,7 +68,7 @@
 		<!-- </dependency> -->
 	</dependencies>
 <properties>
-    <integration.tomcat.url>http://ec2-54-71-127-254.us-west-2.compute.amazonaws.com:8080/manager/text</integration.tomcat.url>
+    <integration.tomcat.url>http://ec2-52-89-67-75.us-west-2.compute.amazonaws.com:8080/manager/text</integration.tomcat.url>
 </properties>
 	<build>
 		<finalName>SpringMVCExample</finalName>
