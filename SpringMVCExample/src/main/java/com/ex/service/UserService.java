@@ -1,11 +1,16 @@
 package com.ex.service;
 
-import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+import com.ex.dao.UserDao;
 import com.ex.model.User;
 
-@Component
+@Service
 public class UserService {
+	
+	@Autowired
+	UserDao userDao;
 	
 	public User auth(User user){
 		
