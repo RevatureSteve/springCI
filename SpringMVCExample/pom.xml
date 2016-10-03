@@ -18,7 +18,31 @@
 		</dependencies>
 	</dependencyManagement>
 
+	<properties>
+		<integration.tomcat.url>http://ec2-52-89-67-75.us-west-2.compute.amazonaws.com:8080/manager/text</integration.tomcat.url>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+
+
+
 	<dependencies>
+
+		<dependency>
+			<groupId>org.sonarsource.flex</groupId>
+			<artifactId>sonar-flex-plugin</artifactId>
+			<version>2.2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.sonarsource.php</groupId>
+			<artifactId>sonar-php-plugin</artifactId>
+			<version>2.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.sonarsource.javascript</groupId>
+			<artifactId>sonar-javascript-plugin</artifactId>
+			<version>2.8</version>
+		</dependency>
 		<!-- Spring core & mvc -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -67,9 +91,7 @@
 		<!-- <scope>provided</scope> -->
 		<!-- </dependency> -->
 	</dependencies>
-<properties>
-    <integration.tomcat.url>http://ec2-52-89-67-75.us-west-2.compute.amazonaws.com:8080/manager/text</integration.tomcat.url>
-</properties>
+
 	<build>
 		<finalName>SpringMVCExample</finalName>
 		<pluginManagement>
