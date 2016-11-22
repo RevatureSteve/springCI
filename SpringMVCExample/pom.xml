@@ -93,7 +93,7 @@
 	<build>
 		<finalName>SpringMVCExample</finalName>
 		<pluginManagement>
-			<plugins>
+			 <plugins>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
@@ -103,7 +103,7 @@
 						<target>1.8</target>
 					</configuration>
 				</plugin>
-				<plugin>
+				<!-- <plugin>
 					<groupId>org.apache.tomcat.maven</groupId>
 					<artifactId>tomcat7-maven-plugin</artifactId>
 					<version>2.2</version>
@@ -115,7 +115,7 @@
 						<path>/${project.artifactId}</path>
 						<update>true</update>
 					</configuration>
-				</plugin>
+				</plugin> -->
 
 			</plugins>
 		</pluginManagement>
